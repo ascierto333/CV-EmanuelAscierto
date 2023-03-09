@@ -1,0 +1,173 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .comienzo {
+    display: flex;
+    width: 1200px;
+    height: 2300px;
+    margin: auto;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: larger;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 1700px;
+  }
+
+  
+  .lado{
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    color: white;
+    padding: 40px 40px 40px 40px;
+  }
+
+  
+  @media (max-width: 1111px) {
+    #nombre,
+    #apellido {
+      font-size: 70px;
+    }
+  }
+  
+  @media (max-width: 745px) {
+    #nombre,
+    #apellido {
+      font-size: 60px;
+    }
+    .comienzo {
+      height: 2700px;
+    }
+  }
+  
+  .mail {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+ 
+  
+  .contact {
+    margin-top: 150px;
+  }
+  
+  .education {
+    font-size: xx-large;
+  }
+  
+  
+  .lado h2 {
+    font-size: 200%;
+    font-weight: 800;
+    border-bottom: 2px solid white;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+  
+ 
+  
+  meter {
+    display: block;
+    width: 80%;
+    border-radius: 40%;
+    height: 40px;
+  }
+  
+  .section-aside {
+    margin-top: 100px;
+  }
+  
+  ul li {
+    font-size: 25px;
+  }
+  
+  .idiomas {
+    margin-top: 80px;
+  }
+  
+  #ingles {
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+    
+  .main {
+    width: 70%;
+  }
+  
+  .main h2 {
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    margin: 40px;
+  }
+  
+  .nombre {
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  #apellido {
+    height: 50px;
+  }
+  
+  #nombre {
+    margin-top: -15px;
+
+  }
+  
+  .nombre article {
+    height: 230px;
+    margin-top: 80px;
+    background-color: rgb(255, 0, 0);
+  }
+  
+  
+  .experiencia,
+  .habilidades {
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+  }
+  
+  
+  .redes-sociales {
+    margin: auto;
+    margin-left: 200px;
+    width: 90%;
+  }
+  
+  .sociales {
+    width: 80px;
+    margin: 25px 25px 25px 25px;
+    transition: 30ms;
+  }
+  
+  .redes-sociales .sociales:hover {
+    transform: scale(1.5);
+  }
+  
+  dt {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  
+  dd {
+    margin: 0px auto 20px;
+    font-size: 20px;
+  }
+
+  aside figure img {
+    width: 120%;
+    margin-left: -20px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+  }
